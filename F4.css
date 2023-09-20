@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 146, 233);
+    background-image: url("dragon.jpg");
+    
+
+  }
+  
+  header {
+    background-color: rgb(224, 46, 135);
+    color: #fff;
+    padding-top: 30px;
+    
+  }
+  
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .game {
+
+    position: absolute;
+    bottom: 15%;
+    border: 10px  black;
+    border-style: double;
+    width: 600px;
+    height: 500px;
+   
+  }
+
+
+
+
+  .Score{
+
+    position: absolute;
+    border: 10px  black;
+    border-style: double;
+    right: 5%;
+    width :200px;
+    height: 300px;
+    text-align: center;
+    bottom: 150px;
+    background-color: red;
+
+
+
+
+  }
+
+  .timer{
+
+    position: absolute;
+    border: 10px  black;
+    border-style: double;
+    bottom: 0%;
+    width :600px;
+    height: 75px;
+    text-align: center;
+    background-color: red;
+    font-size: 30px;
+
+
+  }
+
+  .buttons{
+
+  position: absolute;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+
+
+  }
+
+  #home {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #rules{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+  }
+  
+  #setting{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+  }
+
+  #restart{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  footer {
+    background-color: rgb(224, 46, 135);   
+   color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
